@@ -1,0 +1,42 @@
+h1{
+    color: #835324;
+    font-family: monospace;
+}
+
+a:link{
+    color: #315700;
+}
+a:visited{
+    color: aqua;
+}
+
+.header{
+background-color: #cee215;
+display: flex;
+justify-content: space-between;
+outline-style: dotted;
+}
+
+.grid{
+    background-color: #0c16ac;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    outline-style: inset;
+}
+
+.footer{
+    background-color: #88e015;
+    display: flex;
+    justify-content: end;
+    outline-style: dotted;
+}
+
+*{
+    outline-width: thick;
+    outline-color: #a30547
+}
+
+.item:hover img{
+    opacity: 0.123456789;
+}
